@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div>
       <div><Navbar/></div>
+      <div><Carousel/></div>
       <div className="m-3">
         <Card/>
         <Card/>
@@ -15,7 +16,7 @@ export default function Home() {
         <Card/>
         </div>
       <div><Footer/></div>
-      <div><Carousel/></div>
+      
     </div>
   );
 }
